@@ -70,5 +70,10 @@ app.delete("/delete/:id", (req, res) => {
 
 const port = process.env.PORT || 6001;
 app.listen(port, () => {
+<<<<<<< HEAD
     console.log(`Server is running on port ${port}`);
 });
+=======
+    console.log(`Server is running at ${port}`) 
+})
+>>>>>>> bc70878090a4832c77baaf38592067347d9afee5
