@@ -6,8 +6,8 @@ function CreateFlashCard() {
   const [answer, setAnswer] = useState("");
   const navigate = useNavigate();
 
-  const url = "https://backend-flashcard-tuf.onrender.com";
-  // const url = "http://localhost:5001" ;
+  // const url = "https://backend-flashcard-tuf.onrender.com";
+  const url = "http://localhost:5001" ;
 
   const handleSubmit = async (event) => {
     event.preventDefault();
