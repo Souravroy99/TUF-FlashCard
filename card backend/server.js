@@ -5,19 +5,14 @@ const mysql = require("mysql");
 
 const app = express();
 
-// const corsOptions = {
-//     origin: true,
-//     credentials: true,
-//     //  ["http://localhost:5173", "https://frontend-flashcard-tuf.onrender.com"], // Allow both local and deployed frontend
-// };
-
-app.use(express.json());
-
-app.use(cors({
+const corsOptions = {
     origin: true,
     credentials: true,
-}));
+    //  ["http://localhost:5173", "https://frontend-flashcard-tuf.onrender.com"], // Allow both local and deployed frontend
+};
 
+app.use(express.json());
+app.use(cors(corsOptions));
 
 const db = mysql.createConnection({
     host: "localhost",
