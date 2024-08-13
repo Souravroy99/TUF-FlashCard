@@ -8,8 +8,8 @@ function UpdateFlashCard() {
 
   const { id } = useParams();
 
-  // const url = "https://backend-tuf-flashcard.onrender.com";
-  const url = "http://localhost:5001" ;
+  const url = "https://backend-tuf-flashcard.onrender.com";
+  // const url = "http://localhost:5001" ;
 
   const handleSubmit = async (event) => {
     event.preventDefault();
