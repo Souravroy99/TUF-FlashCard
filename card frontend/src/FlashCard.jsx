@@ -7,8 +7,8 @@ function FlashCard() {
     const [flip, setFlip] = useState(false);
     const [transitionClass, setTransitionClass] = useState("");
 
-    const url = "https://backend-tuf-flashcard.onrender.com" ;
-    // const url = "http://localhost:5001" ;
+    // const url = "https://backend-tuf-flashcard.onrender.com" ;
+    const url = "http://localhost:5001" ;
 
 
     const fetchAllData = async() => {
