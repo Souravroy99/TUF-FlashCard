@@ -24,7 +24,7 @@ function FlashCard() {
                 setFlashcards(data) ;
             }
             else {
-                console.log(`Error in FlashCard.jsx   ${data}`);
+                // console.log(`Error in FlashCard.jsx   ${data}`);
             }
         }
         catch {

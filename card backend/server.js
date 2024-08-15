@@ -6,7 +6,7 @@ const mysql = require("mysql");
 const app = express();
 
 const corsOptions = {
-    origin: true,
+    origin: "https://frontend-flashcard-tuf.onrender.com",
     credentials: true,
     //  ["http://localhost:5173", "https://frontend-flashcard-tuf.onrender.com"], // Allow both local and deployed frontend
 };
